@@ -5,7 +5,7 @@ const description = 'Answer "yes" if the number is even, otherwise answer "no"';
 
 const evenOrOdd = (number) => number % 2 === 0;
 
-export function checkAnswer() {
+const checkAnswer = () => {
   const question = getRandomInt(1, 100);
   const answer = evenOrOdd(question) ? 'yes' : 'no';
   return [question, answer];

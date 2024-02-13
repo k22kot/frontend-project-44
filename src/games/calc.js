@@ -27,8 +27,8 @@ const checkAnswer = () => {
   const secondOperand = getRandomInt(1, 100);
   const operator = getOperator();
   const question = `${firstOperand} ${operator} ${secondOperand}`;
-  const correctAnswer = String(calculate(operator, firstOperand, secondOperand));
-  return [question, correctAnswer];
+  const answer = String(calculate(operator, firstOperand, secondOperand));
+  return [question, answer];
 };
 
 const startCalc = () => {

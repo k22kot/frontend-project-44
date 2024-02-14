@@ -22,7 +22,7 @@ const calculate = (operator, firstOperand, secondOperand) => {
   }
 };
 
-const checkAnswer = () => {
+const getAnswer = () => {
   const firstOperand = getRandomInt(1, 100);
   const secondOperand = getRandomInt(1, 100);
   const operator = getOperator();
@@ -32,11 +32,7 @@ const checkAnswer = () => {
 };
 
 const startCalc = () => {
-  const iteration = [];
-  for (let i = 0; i < 3; i += 1) {
-    iteration[i] = checkAnswer();
-  }
-  playGame(description, iteration);
+  playGame(description, getAnswer);
 };
 
 export default startCalc;

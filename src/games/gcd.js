@@ -13,7 +13,7 @@ const nod = (firstNumber, secondNumber) => {
   return abs;
 };
 
-const checkAnswer = () => {
+const getAnswer = () => {
   const firstNumber = getRandomInt(1, 100);
   const secondNumber = getRandomInt(1, 100);
   const question = `${firstNumber} ${secondNumber}`;
@@ -22,11 +22,7 @@ const checkAnswer = () => {
 };
 
 const startGcd = () => {
-  const iteration = [];
-  for (let i = 0; i < 3; i += 1) {
-    iteration[i] = checkAnswer();
-  }
-  return playGame(description, iteration);
+  playGame(description, getAnswer);
 };
 
 export default startGcd;

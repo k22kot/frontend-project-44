@@ -1,4 +1,4 @@
-import readlineSync, { question } from 'readline-sync';
+import readlineSync from 'readline-sync';
 
 export default function playGame(description, answerFunction) {
   console.log('Welcome to the Brain Games!');
@@ -6,7 +6,7 @@ export default function playGame(description, answerFunction) {
   console.log(`Hello, ${name}!`);
   console.log(description);
   for (let i = 0; i < 3; i += 1) {
-    let array = answerFunction();
+    const array = answerFunction();
     const question = array[0];
     const answer = array[1];
     console.log(`Question: ${question}`);

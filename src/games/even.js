@@ -9,7 +9,7 @@ const getAnswer = () => {
   const question = getRandomInt(1, 100);
   const answer = evenOrOdd(question) ? 'yes' : 'no';
   return [question, answer];
-}
+};
 
 const startEven = () => {
   playGame(description, getAnswer);

@@ -20,30 +20,35 @@ npm link
 
 ## Game: "Checking for even"
 A random number is shown. You need to answer 'yes' if the number is even, or 'no' if it is odd. To win the game you need to answer three questions correctly in a row.
+
 Enter the command `brain-even` to start the game
 
 [![asciicast](https://asciinema.org/a/Oxeq6Hgd0qO3syPmUvHGzW7Bf.svg)](https://asciinema.org/a/Oxeq6Hgd0qO3syPmUvHGzW7Bf)
 
 ## Game: "Calculator"
 You are shown a random mathematical expression, such as 35 + 16, which you need to calculate and write down the correct answer. To win the game you need to answer three questions correctly in a row.
+
 Enter the command `brain-calc` to start the game
 
 [![asciicast](https://asciinema.org/a/NWPRcgEAVPDM5wXnIXXoP7mRa.svg)](https://asciinema.org/a/NWPRcgEAVPDM5wXnIXXoP7mRa)
 
 ## Game "GCD"
 You are shown two random numbers, for example, 25 50. You must calculate and enter the main common factor of these numbers. To win the game you need to answer three questions correctly in a row.
+
 Enter the command `brain-gcd` to start the game
 
 [![asciicast](https://asciinema.org/a/bjW4WHaFGPX9oiPFTsPhJK1lX.svg)](https://asciinema.org/a/bjW4WHaFGPX9oiPFTsPhJK1lX)
 
 ## Game "Arithmetic progression"
 You are shown a series of numbers forming an arithmetic progression, but one of the numbers has been replaced with two dots. You must determine this number. To win the game you need to answer three questions correctly in a row.
+
 Enter the command `brain-progression` to start the game
 
 [![asciicast](https://asciinema.org/a/0IcZjCarGH7pm2F3raWHoR0qI.svg)](https://asciinema.org/a/0IcZjCarGH7pm2F3raWHoR0qI)
 
 ## Game "Is the number prime?"
 You are given a random number and you need to guess it. To win the game you need to answer three questions correctly in a row.
+
 Enter the command `brain-prime` to start the game
 
 [![asciicast](https://asciinema.org/a/IJL4K52mrbH9hx3OH040q2FcR.svg)](https://asciinema.org/a/IJL4K52mrbH9hx3OH040q2FcR)
